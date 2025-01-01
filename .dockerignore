@@ -1,0 +1,28 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+
+# Ignore git files
+.git/
+.gitignore
+
+# Ignore local Poetry files and lock files outside the build context
+poetry.lock.backup
+poetry.toml
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+
+# Ignore temporary or OS files
+.DS_Store
+Thumbs.db
